@@ -1,15 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael's Portfolio</title>
-   
-   
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Michael Maclure's Portfolio</title>
+
+    <link rel="stylesheet" href="assets/output.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
+
 <body>
-    <h1 class="bg-purple-500">Michael Maclure</h1>
-    
+
+    <!-- <header class="bg-yellow-400/40  h-[10dvh] min-h-20 flex justify-center items-center sticky top-0 z-50">
+        </nav>
+        <nav>
+    </header> -->
+
+    <!-- <main class="bg-primary h-[90dvh]"> -->
+    <main class="min-h-dvh bg-linear-to-b from-primary-dark to-primary">
+
+        <section class="min-h-100 flex justify-center items-center sm:flex-row flex-col-reverse sm:gap-4">
+            <div>
+                <div class="flex items-center justify-center">
+                    <h1 class="title-h1">
+                        Michael Maclure
+                    </h1>
+                </div>
+
+                <section class="mt-2 flex items-center justify-center gap-2">
+
+                    <div class="contact-info-container">
+                        <div class="flex items-center justify-center">
+                            <svg class="size-8 sm:size-12 text-secondary" fill="currentColor">
+                                <use xlink:href="./assets/sprites.svg#mail" />
+                            </svg>
+                        </div>
+                        <p class="font-bold ">test@test.com</p>
+                    </div>
+
+                    <div class="contact-info-container">
+                        <div class="flex items-center justify-center">
+                            <svg class="size-8 sm:size-12 text-secondary" fill="currentColor">
+                                <use xlink:href="./assets/sprites.svg#phone" />
+                            </svg>
+                        </div>
+                        <p class="font-bold ">+67 123-456-7890</p>
+                    </div>
+
+                </section>
+
+                <p class="text-center text-white text-lg p-2 text-balance">
+                    Game Developer
+                </p>
+
+                <div class="pt-2 flex justify-center items-center gap-4 ">
+                    <a href="https://github.com/SeaOfFlyingCorpses" target="_blank"
+                        class="icon-social hover:scale-110">
+                        <svg width="28" height="28">
+                            <use xlink:href="./assets/sprites.svg#github" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/michael-maclure-131526380/" target="_blank"
+                        class="icon-social hover:scale-110 bg-white">
+                        <svg width="28" height="28">
+                            <use xlink:href="./assets/sprites.svg#linkedin" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <img class="w-80 aspect-square sm:size-60 sm:object-cover mask-radial-at-center mask-radial-from-50% mask-radial-to-70% border-0"
+                    src="assets/img/IMG_square.jpeg" alt="Michael Maclure">
+            </div>
+        </section>
+
+        <section class="flex justify-center items-center">
+            <div class="abilities abilities-container">
+                <div class="about-me-box">
+                    <h2 class="about-me-title">About Me</h2>
+                    <p class="about-me-description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi in, delectus aut omnis reprehenderit quasi aliquam labore quo expedita, nihil, nemo sunt quidem dignissimos. Cumque adipisci id commodi incidunt quam?
+                    </p>
+                </div>
+                <div class="ability-box">
+                    <svg class="ability-icon" fill="currentColor" viewBox="0 0 24 24">
+                        <use xlink:href="./assets/sprites.svg#code" />
+                    </svg>
+                    <h3 class="ability-title">Clean Code</h3>
+                    <p class="ability-description">
+                        Writing maintainable, readable code following best practices.
+                    </p>
+                </div>
+                <div class="ability-box">
+                    <svg class="ability-icon" fill="currentColor" viewBox="0 0 24 24">
+                        <use xlink:href="./assets/sprites.svg#puzzle" />
+                    </svg>
+                    <h3 class="ability-title">Problem Solving</h3>
+                    <p class="ability-description">
+                        Breaking down complex problems into manageable solutions.
+                    </p>
+                </div>
+                <div class="ability-box">
+                    <svg class="ability-icon" fill="currentColor" viewBox="0 0 24 24">
+                        <use xlink:href="./assets/sprites.svg#communication" />
+                    </svg>
+                    <h3 class="ability-title">Communication</h3>
+                    <p class="ability-description">
+                        Clear collaboration with team members and stakeholders.
+                    </p>
+                </div>
+                <div class="ability-box">
+                    <svg class="ability-icon" fill="currentColor" viewBox="0 0 24 24">
+                        <use xlink:href="./assets/sprites.svg#gears" />
+                    </svg>
+                    <h3 class="ability-title">Adaptability</h3>
+                    <p class="ability-description">
+                        Quickly learning new technologies and frameworks.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="flex items-center justify-center">
+                <h1 class="title-h1">
+                    Projects
+                </h1>
+            </div>
+
+            <div class="grid grid-cols-3 grid-rows-2 gap-4 w-full p-4">
+                <a href="/Minesweeper" class="
+                    project-link-container from-red-900 via-red-700 to-red-500 group 
+                    hover:scale-102 hover-contrast-125
+                    ">
+                    <span class="project-link-title">
+                        Project 1
+                    </span>
+                    <img class="project-link-image mask-tl-from-50% mask-l-to-90%  
+                        group-hover:-translate-x-20 group-hover:mask-tl-from-30%"
+                        src="./assets/img/projects/.png" alt="p1" />
+                    <span class="project-link-techs">
+                        <svg class="size-5" fill="currentColor">
+                            <use xlink:href="./assets/sprites.svg#html" />
+                        </svg>
+                        <svg class="size-5" fill="currentColor">
+                            <use xlink:href="./assets/sprites.svg#css" />
+                        </svg>
+                        <svg class="size-5" fill="currentColor">
+                            <use xlink:href="./assets/sprites.svg#js" />
+                        </svg>
+                    </span>
+                </a>
+
+                <a href="" class="
+                        project-link-container from-green-900 via-green-700 to-green-500 group
+                        hover:scale-102 hover-contrast-125
+                    ">
+                    <span class="project-link-title">
+                        Project 2
+                    </span>
+                    <img class="project-link-image mask-l-from-50% mask-l-to-90% 
+                        group-hover:-translate-x-20 group-hover:mask-l-from-30%"
+                        src="./assets/img/projects/.png" alt="p2" />
+                    <span class="project-link-techs">
+                        <svg class="size-5" fill="currentColor">
+                            <use xlink:href="./assets/sprites.svg#html" />
+                        </svg>
+                        <svg class="size-5" fill="currentColor">
+                            <use xlink:href="./assets/sprites.svg#css" />
+                        </svg>
+                        <svg class="size-5" fill="currentColor">
+                            <use xlink:href="./assets/sprites.svg#js" />
+                        </svg>
+                        <svg class="size-5" fill="currentColor">
+                            <use xlink:href="./assets/sprites.svg#react" />
+                        </svg>
+                        <svg class="size-5" fill="currentColor">
+                            <use xlink:href="./assets/sprites.svg#node" />
+                        </svg>
+                    </span>
+                </a>
+
+                <a href="" class="
+                    project-link-container group from-yellow-900 via-yellow-700 to-yellow-500
+                    hover:scale-102 hover-contrast-125
+                    ">
+                    <span class="project-link-title">
+                        Project 3
+                    </span>
+                    <img class="project-link-image mask-l-from-50% mask-l-to-90% 
+                        group-hover:-translate-x-20 group-hover:mask-l-from-30%"
+                        src="./assets/img/projects/.png" alt="p3" />
+                    <span class="project-link-techs">
+                        <svg class="size-5" fill="currentColor">
+                            <use xlink:href="./assets/sprites.svg#html" />
+                        </svg>
+                        <svg class="size-5" fill="currentColor">
+                            <use xlink:href="./assets/sprites.svg#css" />
+                        </svg>
+                        <svg class="size-5" fill="currentColor">
+                            <use xlink:href="./assets/sprites.svg#js" />
+                        </svg>
+                        <svg class="size-5" fill="currentColor">
+                            <use xlink:href="./assets/sprites.svg#node" />
+                        </svg>
+                        <svg class="size-5" fill="currentColor">
+                            <use xlink:href="./assets/sprites.svg#php" />
+                        </svg>
+                        <svg class="size-5" fill="currentColor">
+                            <use xlink:href="./assets/sprites.svg#laravel" />
+                        </svg>
+                    </span>
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- <section class="flex items-center justify-center">
+            <div>
+                <h1 class="title-h1">
+                    Contact Me
+                </h1>
+                <div class="flex items-center gap-2 mt-1">
+                    <div class="contact-info-container">
+                        <svg class="size-8 sm:size-16 text-black" fill="currentColor">
+                            <use xlink:href="./assets/sprites.svg#mail" />
+                        </svg>
+                    </div>
+                    <p class="font-bold ">test@test.com</p>
+                </div>
+        
+                <div class="flex items-center gap-2 mt-1">
+                    <div class="contact-info-container">
+                        <svg class="size-8 sm:size-16 text-black" fill="currentColor">
+                            <use xlink:href="./assets/sprites.svg#phone" />
+                        </svg>
+                    </div>
+                    <p class="font-bold ">+67 123-456-7890</p>
+                </div>
+        
+            </div>
+        
+            <img class="max-h-32 mask-radial-at-center mask-radial-from-50% mask-radial-to-70%"
+                src="./assets//img/handshake.png" alt="handshake">
+        
+        </section> -->
+
+        <section class="h-5 ">
+        </section>
+
+    </main>
+    <!-- <footer class="h-[10dvh]">
+
+    </footer> -->
 </body>
+
 </html>

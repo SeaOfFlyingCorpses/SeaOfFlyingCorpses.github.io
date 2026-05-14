@@ -1,0 +1,31 @@
+{
+  "name": "seaofflyingcorpses.github.io",
+  "version": "1.0.0",
+  "description": "seaofflyingcorpses's portfolio page",
+  "keywords": [
+    "portfolio",
+    "website"
+  ],
+  "homepage": "https://github.com/SeaOfFlyingCorpses/SeaOfFlyingCorpses.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/SeaOfFlyingCorpses/SeaOfFlyingCorpses.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeaOfFlyingCorpses/SeaOfFlyingCorpses.github.io.git"
+  },
+  "license": "ISC",
+  "author": "seaofflyingcorpses",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build:styles": "tailwindcss -i ./global.css -o ./docs/assets/output.css --minify --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.4",
+    "tailwindcss": "^4.2.4"
+  }
+}
