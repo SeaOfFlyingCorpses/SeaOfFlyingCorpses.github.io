@@ -21,7 +21,15 @@
     <!-- <main class="bg-primary h-[90dvh]"> -->
     <main class="min-h-dvh bg-linear-to-b from-primary-dark to-primary">
 
-        <section class="min-h-100 flex justify-center items-center sm:flex-row flex-col-reverse sm:gap-4">
+        <section class="min-h-80 sm:min-h-[80dvh] flex justify-center items-center sm:flex-row flex-col-reverse sm:gap-4 relative z-0
+            ">
+            <!-- mask-b-from-20% mask-b-to-80%
+            bg-[url('./img/bg-banner.png')] bg-contain bg-no-repeat sm:bg-cover -->
+            <img class="absolute top-0 -z-10 sm:max-h-[80dvh] sm:size-full sm:object-cover
+            mask-b-from-20% mask-b-to-80%
+            " 
+            src="./assets/img/bg-banner.png" alt="">
+            
             <div>
                 <div class="flex items-center justify-center">
                     <h1 class="title-h1">
@@ -56,8 +64,7 @@
                 </p>
 
                 <div class="pt-2 flex justify-center items-center gap-4 ">
-                    <a href="https://github.com/SeaOfFlyingCorpses" target="_blank"
-                        class="icon-social hover:scale-110">
+                    <a href="https://github.com/SeaOfFlyingCorpses" target="_blank" class="icon-social hover:scale-110">
                         <svg width="28" height="28">
                             <use xlink:href="./assets/sprites.svg#github" />
                         </svg>
@@ -70,8 +77,9 @@
                     </a>
                 </div>
             </div>
+            
             <div>
-                <img class="w-80 aspect-square sm:size-60 sm:object-cover mask-radial-at-center mask-radial-from-50% mask-radial-to-70% border-0"
+                <img class="w-60 aspect-square sm:size-60 sm:object-cover mask-radial-at-center mask-radial-from-50% mask-radial-to-70% border-0"
                     src="assets/img/IMG_square.jpeg" alt="Michael Maclure">
             </div>
         </section>
@@ -81,7 +89,9 @@
                 <div class="about-me-box">
                     <h2 class="about-me-title">About Me</h2>
                     <p class="about-me-description">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi in, delectus aut omnis reprehenderit quasi aliquam labore quo expedita, nihil, nemo sunt quidem dignissimos. Cumque adipisci id commodi incidunt quam?
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi in, delectus aut omnis
+                        reprehenderit quasi aliquam labore quo expedita, nihil, nemo sunt quidem dignissimos. Cumque
+                        adipisci id commodi incidunt quam?
                     </p>
                 </div>
                 <div class="ability-box">
@@ -139,8 +149,8 @@
                         Project 1
                     </span>
                     <img class="project-link-image mask-tl-from-50% mask-l-to-90%  
-                        group-hover:-translate-x-20 group-hover:mask-tl-from-30%"
-                        src="./assets/img/projects/.png" alt="p1" />
+                        group-hover:-translate-x-20 group-hover:mask-tl-from-30%" src="./assets/img/projects/.png"
+                        alt="p1" />
                     <span class="project-link-techs">
                         <svg class="size-5" fill="currentColor">
                             <use xlink:href="./assets/sprites.svg#html" />
@@ -162,8 +172,8 @@
                         Project 2
                     </span>
                     <img class="project-link-image mask-l-from-50% mask-l-to-90% 
-                        group-hover:-translate-x-20 group-hover:mask-l-from-30%"
-                        src="./assets/img/projects/.png" alt="p2" />
+                        group-hover:-translate-x-20 group-hover:mask-l-from-30%" src="./assets/img/projects/.png"
+                        alt="p2" />
                     <span class="project-link-techs">
                         <svg class="size-5" fill="currentColor">
                             <use xlink:href="./assets/sprites.svg#html" />
@@ -191,8 +201,8 @@
                         Project 3
                     </span>
                     <img class="project-link-image mask-l-from-50% mask-l-to-90% 
-                        group-hover:-translate-x-20 group-hover:mask-l-from-30%"
-                        src="./assets/img/projects/.png" alt="p3" />
+                        group-hover:-translate-x-20 group-hover:mask-l-from-30%" src="./assets/img/projects/.png"
+                        alt="p3" />
                     <span class="project-link-techs">
                         <svg class="size-5" fill="currentColor">
                             <use xlink:href="./assets/sprites.svg#html" />
